@@ -28,7 +28,7 @@ html, body {
 
 
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .navbar-collapse {
     text-align: center;
   }
@@ -45,7 +45,7 @@ html, body {
     justify-content: center;
     margin-top: 15px;
   }
-}
+} */
 
 
 .image {
@@ -59,6 +59,28 @@ html, body {
   object-fit: contain;
 
 }
+
+
+
+.brand-logo {
+  max-height: 45px;
+  width: auto;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.brand-logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Mobile fine-tuning */
+@media (max-width: 576px) {
+  .brand-logo {
+    max-height: 35px;
+  }
+}
+
 
 
 .story-section {
